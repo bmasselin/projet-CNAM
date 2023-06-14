@@ -1,0 +1,140 @@
+# =============== #
+# Unity generated #
+# =============== #
+# https://github.com/github/gitignore/blob/master/Unity.gitignore
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+sysinfo.txt
+*.stackdump
+*.pidb.meta
+
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+[Ee]xported[Oo]bj/
+.vs/
+*.user
+*.userprefs
+*.csproj
+*.pidb
+*.suo
+*.sln*
+*.unityproj
+*.booproj
+.vsconfig
+ 
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store*
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+[Tt]humbs.db
+[Dd]esktop.ini
+
+# ========= #
+# Lightmaps #
+# ========= #
+[Ll]ightingData.asset
+[Ll]ightingData.asset.meta
+*.exr
+*.exr.meta
+*_comp_dir.png
+*_comp_dir.png.meta
+
+# ================= #
+# Lightmaps Folders #
+# ================= #
+**/[Aa]ssets/**/[Ss]cenes/**/*.meta
+!*.unity.meta
+
+# ============== #
+# Occlusion Data #
+# ============== #
+OcclusionCullingData.asset
+OcclusionCullingData.asset.meta
+
+# ============ #
+# NavMesh Data #
+# ============ #
+NavMesh.asset
+NavMesh.asset.meta
+
+# ==================== #
+# ProBuilder user data #
+# ==================== #
+/[Aa]ssets/ProCore/ProBuilder/Data.meta
+/[Aa]ssets/ProCore/ProBuilder/Data/
+
+# ====== #
+# Builds #
+# ====== #
+*.apk
+*.unitypackage
+*.unitypackage.meta
+*.app
+*.exe
+
+# ============ #
+# VLB Specific #
+# ============ #
+**/[Aa]ssets/Resources.meta
+
+# ================= #
+# OS specific stuff #
+# Created by https://www.gitignore.io/api/windows,osx,linux
+# ================= #
+
+### Windows ###
+# https://github.com/github/gitignore/blob/master/Global/Windows.gitignore
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+### OSX ###
+# https://github.com/github/gitignore/blob/master/Global/macOS.gitignore
+*.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+### Linux ###
+# https://github.com/github/gitignore/blob/master/Global/Linux.gitignore
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+
+
+
