@@ -83,6 +83,9 @@ namespace MyWork
                 //Déplacement
                 deplacement = deplacement.normalized * vitesse * Time.deltaTime;
                 transform.position += deplacement;
+
+                //Rotation vers la target
+                transform.rotation = Quaternion.LookRotation(new Vector3(deplacement.x, 0.0f, deplacement.z).normalized, Vector3.up);
             }
             else
             {

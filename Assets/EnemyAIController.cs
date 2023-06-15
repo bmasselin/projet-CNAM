@@ -6,7 +6,7 @@ using UnityEngine.AI;
 public class EnemyAIController : MonoBehaviour
 {
     [SerializeField] Transform target;
-    [SerializeField] float enemyRange = 20f;
+    [SerializeField] float enemyRange = 30f;
 
     private float distanceBetweenTarget;
     private NavMeshAgent navMeshAgent;

@@ -26,8 +26,6 @@ public class ModifyHealthAttribute : MonoBehaviour
 
     public void OnCollisionEnter(Collision collisionData)
     {
-        Debug.LogFormat("COLLISION {0}", collisionData.gameObject);
-
         HealthSystemAttribute healthScript = collisionData.gameObject.GetComponent<HealthSystemAttribute>();
         if (healthScript != null)
         {
@@ -62,24 +60,3 @@ public class ModifyHealthAttribute : MonoBehaviour
     }
 }
 
- //   // This function gets called everytime this object collides with another
- //   private void OnCollisionEnter(Collision collisionData)
-	//{
-	//	OnTriggerEnter(collisionData.collider);
-	//}
-
-	//private void OnTriggerEnter(Collider colliderData)
-	//{
-	//	HealthSystemAttribute healthScript = colliderData.gameObject.GetComponent<HealthSystemAttribute>();
-	//	if(healthScript != null)
-	//	{
-	//		// subtract health from the player
-	//		healthScript.ModifyHealth(healthChange);
-
-	//		if(destroyWhenActivated)
-	//		{
-	//			Destroy(this.gameObject);
-	//		}
-	//	}
-	//}
-//}
