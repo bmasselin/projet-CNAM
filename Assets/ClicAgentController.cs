@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-/*public class ClicAgentController : AgentController
+public class ClicAgentController : AgentController
 {
     private Ray rayPickPos; //Déclaré ici pour pouvoir le visualiser, il doit rester accessible entre deux clics
 
-    void Update()
+    public void Update()
     {
         if (Input.GetButtonDown("Fire1"))
         {
@@ -27,4 +27,3 @@ using UnityEngine.AI;
         Gizmos.DrawRay(rayPickPos.origin, rayPickPos.direction * 100);
     }
 }
-*/

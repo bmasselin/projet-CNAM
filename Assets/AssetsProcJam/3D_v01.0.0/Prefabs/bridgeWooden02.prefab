@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 4449470414408546}
   - component: {fileID: 33576044271205282}
   - component: {fileID: 23031676766199692}
-  - component: {fileID: 1995791253873100329}
   m_Layer: 0
   m_Name: bridgeWooden02
   m_TagString: Untagged
@@ -84,17 +83,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &1995791253873100329
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1919016803935462}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 61fb958456d81b5498658dc429021ac3, type: 3}
