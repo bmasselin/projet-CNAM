@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2817069826296658213}
   - component: {fileID: 296573411}
   - component: {fileID: 5167250502951191085}
+  - component: {fileID: 4448582206536122082}
   m_Layer: 0
   m_Name: BulletEnemy
   m_TagString: Untagged
@@ -114,3 +115,19 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.06824422
   m_Center: {x: 0, y: 0.000000018626455, z: -4.4408925e-15}
+--- !u!114 &4448582206536122082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2817069826294674211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fa3c260db47248a18ecb8112019040d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyWhenActivated: 0
+  healthChange: -1
+  forceImpulse: 10
+  collisionSound: {fileID: 8300000, guid: 65cb3b67c37be4f00a10a8d7fadd2e31, type: 3}
